@@ -1,27 +1,28 @@
-# Projekt 2 - Synchronizace procesů
+# Synchronizácia procesov
 
 ## Úvod
 
-Tento projekt je inspirován knihou "The Little Book of Semaphores" od Allena B. Downeyho a simuluje situaci v poště, kde se synchronizují procesy zákazníků a úředníků.
+Tento projekt je inšpirovaný knihou "The Little Book of Semaphores" od Allena B. Downeyho a simulujú situáciu na pošte, kde sa synchronizujú procesy zákazníkov a úradníkov.
 
 ## Popis úlohy
 
-Existují 3 typy procesů: hlavní proces, poštovní úředník a zákazník. Zákazníci přicházejí na poštu s požadavky na listovní služby, balíky nebo peněžní služby, a jsou zařazeni do fronty podle typu služby. Úředníci obsluhují fronty náhodně. 
+Existujú 3 typy procesov: hlavný proces, poštový úradník a zákazník. Zákazníci prichádzajú na poštu s požiadavkami na listovné služby, balíky alebo peňažné služby a sú zaradení do fronty podľa typu služby. Úradníci obsluhujú fronty náhodne.
 
-## Spuštění
+## Spustenie
 
-Program se spouští s parametry pro počet zákazníků, počet úředníků, maximální čekací dobu zákazníka, maximální délku přestávky úředníka a maximální čas uzavření pošty.
+Program sa spúšťa s parametrami pre počet zákazníkov, počet úradníkov, maximálnu čakaciu dobu zákazníka, maximálnu dĺžku prestávky úradníka a maximálny čas zatvorenia pošty.
 
-## Implementační detaily
+## Implementačné detaily
 
-- Pro synchronizaci procesů se používají sdílená paměť a semafory.
-- Kód je komentován a přehledný.
+- Na synchronizáciu procesov sa používajú zdieľaná pamäť a semafory.
+- Kód je komentovaný a prehľadný.
 
-## Překlad a odevzdání
+## Preklad a odovzdanie
 
-- Projekt se implementuje v jazyce C.
-- Pro překlad se používá nástroj `make`.
-- Odevzdávají se zdrojové kódy a soubor `Makefile`, zabaleny do archivu `proj2.zip`.
-- Projekt musí být možné přeložit a spustit na serveru merlin.
+- Projekt sa implementuje v jazyku C.
+- Pre preklad sa používa nástroj `make`.
+- Odovzdávajú sa zdrojové kódy a súbor `Makefile`, zabalene do archívu `proj2.zip`.
+- Projekt musí byť možné preložiť a spustiť na serveri merlin.
 
-Toto je stručný popis zadání projektu 2. Pro více detailů a implementačních pokynů se podívejte do samotného zadání.
+Toto je stručný popis zadania projektu 2. Pre viac detailov a implementačných pokynov sa pozrite do samotného zadania.
+
